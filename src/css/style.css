@@ -4,7 +4,7 @@ html{
 }
 
 body{
-    background: linear-gradient(150deg, #000000, #9e00ff);
+    background: linear-gradient(150deg, #000000, #4a4a4d);
     background-size: 120% 120%;
     font-family: "Poppins",sans-serif;
     margin: 0 auto;
@@ -26,12 +26,13 @@ body{
     text-align: center;
     line-height: 60px;
     font-family: "Raleway", sans-serif;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .cabecalho a:hover .logo{
-    color: #9443d8;
-    border: 2px solid #9443d8;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
 }
 
 .cabecalho .menu li a{
@@ -43,16 +44,18 @@ body{
 }
 
 .cabecalho .menu li a:hover{
-    background-color: #9443d8;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     border-radius: 50px;
 }
 
 .home{
     display: flex;
+    flex-direction: row-reverse;
     min-height: calc(100vh - 125px);
     align-items: center;
-    justify-content:space-between;
+    justify-content:center;
+    gap: 60px;
     
 }
 
@@ -62,14 +65,14 @@ body{
     gap: 15px;
     letter-spacing: 2px;
     padding: 0 15px;
-    max-width: 50%;
+    max-width: 60%;
     
 }
 
-.home .informacos h1{
+.home .informacoes h1{
     font-family: "Raleway", sans-serif;
-    font-size: 45px;
-    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: bold;
 
 }
 
@@ -99,8 +102,9 @@ body{
 }
 
 .home .redes-sociais a i:hover{
-    color: #9443d8;
-    border: 1px solid #9443d8;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
     transform: scale(1.2);
 
 }
@@ -117,7 +121,7 @@ body{
 }
 
 .home .foto.sombra-interna{
-    background: linear-gradient(to right, #8a35c8, #18c063, #00eea2);
+    background: linear-gradient(to right, #201f20, #a3aca7, #ffffff);
 
   background-size: 180% 180%;
   animation: gradient-animation 5s ease infinite;
@@ -197,8 +201,9 @@ body{
 }
 
 .projetos .btn-mostrar-projetos:hover{
-    background-color: #9443d8;
-    transition: 0.3s;
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.4s;
 }
 
 .projetos .btn-mostrar-projetos.remover{
